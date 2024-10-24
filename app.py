@@ -34,7 +34,7 @@ if page == "Electronics Price Prediction":
         df = pickle.load(open('df.pkl','rb'))
 
        # Display car image (you can replace the URL with a local image path if needed)
-        st.image("laptop-2575689_1280.jpg.jpg", width=700)
+        st.image("laptop-2575689_1280.jpg", width=700)
 
         st.title("Laptop Predictor") 
 
