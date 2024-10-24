@@ -34,7 +34,7 @@ if page == "Electronics Price Prediction":
         df = pickle.load(open('df.pkl','rb'))
 
        # Display car image (you can replace the URL with a local image path if needed)
-        st.image("/content/laptop-2575689_1280.jpg", width=700)
+        st.image("laptop-2575689_1280.jpg.jpg", width=700)
 
         st.title("Laptop Predictor") 
 
@@ -105,7 +105,7 @@ if page == "Electronics Price Prediction":
         data = pickle.load(open('data.pkl', 'rb'))
 
         # Display car image (you can replace the URL with a local image path if needed)
-        st.image("/content/Mobile.jpg", width=700)
+        st.image("Mobile.jpg", width=700)
 
         # Streamlit UI
         st.title("Mobile Price Prediction App")
@@ -157,7 +157,7 @@ if page == "Electronics Price Prediction":
         import pickle
 
         # Display car image (you can replace the URL with a local image path if needed)
-        st.image("/content/TV image.jpg", width=700)
+        st.image("TV image.jpg", width=700)
 
         # Set the title of the app
         st.title("📺 Television Price Prediction")
@@ -206,7 +206,7 @@ if page == "Electronics Price Prediction":
         df = pickle.load(open('camera.pkl', 'rb'))
 
         # Display car image (you can replace the URL with a local image path if needed)
-        st.image("/content/camera image.jpg", width=700)
+        st.image("camera image.jpg", width=700)
 
         # Set the title of the Streamlit app
         st.title('Camera Price Prediction App')
@@ -276,7 +276,7 @@ elif page == "Vehicles Price Prediction":
        car = pd.read_csv('Cleaned_Car_data.csv')
 
        # Display car image (you can replace the URL with a local image path if needed)
-       st.image("/content/car images.jpg", width=700)  # You can replace the URL with an actual image URL or path
+       st.image("car images.jpg", width=700)  # You can replace the URL with an actual image URL or path
 
        # Streamlit app title
        st.title("Car Price Predictor")
@@ -316,7 +316,7 @@ elif page == "Vehicles Price Prediction":
        bike = pickle.load(open('bike.pkl', 'rb'))
 
        # Display car image (you can replace the URL with a local image path if needed)
-       st.image("/content/Bike image.jpg", width=700) 
+       st.image("Bike image.jpg", width=700) 
 
        # Clean column names by stripping extra spaces or tabs
        bike.columns = bike.columns.str.strip()
